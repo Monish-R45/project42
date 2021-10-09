@@ -38,7 +38,7 @@ function draw() {
   //display Score and number of lifes
   text("Score:"+score,700,50)
   text("Lifes:"+life,600,50)
-  if(keyCode = 32){
+  if(keyDown(32)){
     shootBullet();
     console.log("Working!");
   }
